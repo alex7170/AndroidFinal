@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================== GENERAL ================== -->
+
+    <string name="app_name">BlockNote</string>
+    <string name="pdg_gen_load">Caricamento</string>
+    <string name="pdg_gen_confail">Errore: controllare la connessione!</string>
+    <string name="pdg_gen_ask_ok">sincronizzazione completa</string>
+    <!-- ================== MENU ================== -->
+
+    <string name="menu_drawner">Menu</string>
+
+    <!-- ================== ACTION ================== -->
+
+    <string name="action_refresh_data">Aggiornato</string>
+    <string name="action_about_us">Chi siamo</string>
+
+    <!-- ================== LOGIN + INSCRIPTION ================== -->
+
+    <string name="title_activity_inscription">Register</string>
+    <string name="label_mail">Mail</string>
+    <string name="label_password">Password</string>
+    <string name="label_retype">Re-type</string>
+    <string name="label_pseudo">Login</string>
+    <string name="button_connexion">Connexion</string>
+    <string name="button_register">Register</string>
+    <string name="pgd_ins_load">Registrazione in corso.</string>
+    <string name="pgd_ins_fail_mdp">Si prega di inserire una password.</string>
+    <string name="pgd_ins_fail_mail">Inserisci una e-mail.</string>
+    <string name="pgd_ins_empty_mail">Inserisci una e-mail.</string>
+    <string name="pgd_ins_empty_pass">Si prega di inserire una password.</string>
+    <string name="pgd_ins_win">La registrazione, effettua il login!</string>
+    <string name="pdg_con_fail">Mail e la password errata!</string>
+    <string name="pdg_co_loginSucces">Accedi successo!</string>
+
+    <!-- ================== PRINCIPAL + MENU ================== -->
+
+    <string name="title_activity_accueil">Casa</string>
+    <string name="title_section1">Casa</string>
+    <string name="title_section2">Taccuino</string>
+    <string name="title_section3">Mio conto</string>
+    <string name="title_section4">Chi siamo</string>
+    <string name="title_section5">Sconnessione</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Casa</item>
+        <item>Taccuino</item>
+        <item>Mio conto</item>
+        <item>Chi siamo</item>
+        <item>Sconnessione</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/blocknote_home</item>
+        <item>@drawable/blocknote_carnet</item>
+        <item>@drawable/blocknote_client</item>
+        <item>@drawable/blocknote_help</item>
+        <item>@drawable/blocknote_lock</item>
+    </array>
+
+    <string name="pdg_pri_fragmentFailed">Si è verificato un errore imprevisto!</string>
+    <string name="pdg_pri_logoutTitle">conferma</string>
+    <string name="pdg_pri_logoutContainer">Continuando, sarete disconnesso!</string>
+    <string name="pdg_pri_logoutYes">Si</string>
+    <string name="pdg_pri_logoutNo">Cancellare</string>
+    <string name="pdg_pri_logoutOk">Scollegare esso !</string>
+
+    <!-- ================== ACCUEIL ================== -->
+
+
+    <!-- vide -->
+
+
+    <!-- ================== CARNET ================== -->
+
+    <string name="pdg_car_addNom">Nome del Libro</string>
+    <string name="pdg_car_addTitle">Nuovo libro</string>
+    <string name="pdg_car_addContainer">Si prega di inserire il nome del libro</string>
+    <string name="pdg_car_addYes">Creare</string>
+    <string name="pdg_car_addNo">Cancellare</string>
+    <string name="pdg_car_optionTitle">Opzione</string>
+    <string name="pdg_car_optionLire">Aperto</string>
+    <string name="pdg_car_optionModifier">Modifica</string>
+    <string name="pdg_car_optionSupprimer">Rimuovere</string>
+    <string name="pdg_car_optionCancel">cancellare</string>
+    <string name="pdg_car_editTitle">Libro : </string>
+    <string name="pdg_car_editContainer">Si prega di inserire il nuovo nome del libro :</string>
+    <string name="pdg_car_editYes">Modifica</string>
+    <string name="pdg_car_editNo">cancellare</string>
+    <string name="pdg_car_deleteConfirm">Confirm</string>
+    <string name="pdg_car_deleteContainer">Rimuoverlo ?</string>
+    <string name="pdg_car_deleteSucces">Il libro è stato eliminato</string>
+    <string name="pdg_car_editSucces">Il libro è stato aggiornato</string>
+    <string name="pdg_car_empty">Campo vuoto !</string>
+    <string name="pdg_car_listview_1">+ Creare Libro [</string>
+    <string name="pdg_car_listview_2">/5]</string>
+
+    <!-- ================== MON COMPTE ================== -->
+
+    <string name="btn_mycompte_pseud">Cambia il tuo nickname</string>
+    <string name="btn_mycompte_mdp">Modificare la password</string>
+    <string name="btn_mycompte_desinscription">Cancellati</string>
+    <string name="btn_mycompte_return">Indietro</string>
+    <string name="pdg_mon_Yes">Modifica</string>
+    <string name="pdg_mon_No">Cancellare</string>
+    <string name="pdg_mon_pseudoHint">Login</string>
+    <string name="pdg_mon_pseudotitle">Nuovo login</string>
+    <string name="pdg_mon_pseudoMessage">Si prega di inserire il nuovo login</string>
+    <string name="pdg_mon_mdpHint">Password</string>
+    <string name="pdg_mon_mdptitle">Nuovo password</string>
+    <string name="pdg_mon_mdpMessage">Si prega di inserire la nuova password</string>
+    <string name="pdg_mon_mdpMessageRe">Si prega di inserire nuovamente la password</string>
+    <string name="pdg_mon_deleteTitle">Confirm</string>
+    <string name="pdg_mon_deleteMessage">Vuoi davero annullare l\'iscrizione?</string>
+    <string name="pdg_mon_deleteYes">Confirm</string>
+    <string name="pdg_mon_deleteNo">cancellare</string>
+    <string name="pdg_mon_ask_editSucces">Modifiche effettuate!</string>
+    <string name="pdg_mon_ask_mdpFailRe">Password errata</string>
+    <string name="pdg_mon_empty">Campo vuoto !</string>
+    <string name="pdg_mon_unregisterSucces">Cancellati successo!</string>
+
+    <!-- ================== ABOUT US ================== -->
+
+    <string name="label_aboutus">Soggetto:\n\nNoteBook with online backup for different items. Provide for the concept category and title.\n\nSviluppatore:\n\n- anthony.lattuca@condorcet.be\n- alexandre.rosati@condorcet.be</string>
+
+    <!-- ================== ADD NOTE ================== -->
+
+	<string name="label_add_title">Nuova nota</string>
+	<string name="label_add_succes">Aggiungilo!</string>
+	
+	<string name="layout_label_titre">Titolo</string>
+	<string name="layout_label_contenu">Contenuto della nota</string>
+
+    <!-- ================== EDIT NOTE ================== -->
+	
+	<string name="pdg_editnote_title">Confirm</string>
+	<string name="pdg_editnote_message">Sei sicuro di voler eliminare questo appunto?</string>
+	<string name="pdg_editnote_yes">Si</string>
+	<string name="pdg_editnote_no">cancellare</string>
+	
+	
+    <!-- ================== Autres ================== -->
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_activity_note">ActivityNote</string>
+    <string name="title_activity_activity_edit_note">ActivityEditNote</string>
+    <string name="title_activity_activity_lire_carnet">ActivityLireCarnet</string>
+    <string name="title_activity_activity_add_note">ActivityAddNote</string>
+
+</resources>

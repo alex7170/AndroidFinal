@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333f4f"
+    android:orientation="vertical" > 
+
+    <EditText
+        android:id="@+id/Pseudo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:ems="10"
+        android:hint="@string/label_pseudo"
+        android:inputType="text"
+        android:textColor="#fff"
+        android:textColorHint="#fff" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:ems="10"
+        android:hint="@string/label_mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/label_password"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_marginTop="20dip"
+        />
+
+	<Button
+	    android:id="@+id/btn_register_sub"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="20dip"
+	    android:background="#019875"
+	    android:text="@string/button_register"
+	    android:textColor="#fff" />
+
+</LinearLayout>

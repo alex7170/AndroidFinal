@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.projetgroupe.ActivityAddNote" >
+
+    <item
+        android:id="@+id/action_note_add_send"
+        android:icon="@drawable/blocknote_add"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_about_us"/>
+
+</menu>

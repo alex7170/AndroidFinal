@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================== GENERAL ================== -->
+
+    <string name="app_name">BlockNote</string>
+    <string name="pdg_gen_load">Chargement en cours</string>
+    <string name="pdg_gen_confail">Erreur : vérifier la connexion internet !</string>
+    <string name="pdg_gen_ask_ok">Synchronisation réussis</string>
+    <!-- ================== MENU ================== -->
+
+    <string name="menu_drawner">Menu</string>
+
+    <!-- ================== ACTION ================== -->
+
+    <string name="action_refresh_data">Mise a jour</string>
+    <string name="action_about_us">A Propos</string>
+
+    <!-- ================== LOGIN + INSCRIPTION ================== -->
+
+    <string name="title_activity_inscription">Inscription</string>
+    <string name="label_mail">Mail</string>
+    <string name="label_password">Mot de passe</string>
+    <string name="label_retype">re-type</string>
+    <string name="label_pseudo">Pseudo</string>
+    <string name="button_connexion">Connexion</string>
+    <string name="button_register">Inscription</string>
+    <string name="pgd_ins_load">inscription en cours</string>
+    <string name="pgd_ins_fail_mdp">Veuillez entrez un mot de passe.</string>
+    <string name="pgd_ins_fail_mail">Veuillez entrez une adresse email valide.</string>
+    <string name="pgd_ins_empty_mail">Veuillez entre votre email.</string>
+    <string name="pgd_ins_empty_pass">Veuillez entrez votre pseudo.</string>
+    <string name="pgd_ins_win">Inscription réussi, veuillez vous connecter !</string>
+    <string name="pdg_con_fail">Mail et mot de passe incorrecte !</string>
+    <string name="pdg_co_loginSucces">Connexion réussis !</string>
+
+    <!-- ================== PRINCIPAL + MENU ================== -->
+
+    <string name="title_activity_accueil">Accueil</string>
+    <string name="title_section1">Accueil</string>
+    <string name="title_section2">Carnet</string>
+    <string name="title_section3">Mon compte</string>
+    <string name="title_section4">A Propos</string>
+    <string name="title_section5">Deconnexion</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Accueil</item>
+        <item>Carnet</item>
+        <item>Mon compte</item>
+        <item>A propos</item>
+        <item>Deconnexion</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/blocknote_home</item>
+        <item>@drawable/blocknote_carnet</item>
+        <item>@drawable/blocknote_client</item>
+        <item>@drawable/blocknote_help</item>
+        <item>@drawable/blocknote_lock</item>
+    </array>
+
+    <string name="pdg_pri_fragmentFailed">Une erreur inattendue est survenue !</string>
+    <string name="pdg_pri_logoutTitle">Confirmation</string>
+    <string name="pdg_pri_logoutContainer">En continuant, vous serez deconnecté !</string>
+    <string name="pdg_pri_logoutYes">Oui</string>
+    <string name="pdg_pri_logoutNo">Annuler</string>
+    <string name="pdg_pri_logoutOk">Déconnexion réussis !</string>
+
+    <!-- ================== ACCUEIL ================== -->
+
+
+    <!-- vide -->
+
+
+    <!-- ================== CARNET ================== -->
+
+    <string name="pdg_car_addNom">Nom du carnet</string>
+    <string name="pdg_car_addTitle">Nouveau carnet</string>
+    <string name="pdg_car_addContainer">Veuillez entrer le nom du carnet</string>
+    <string name="pdg_car_addYes">Créer</string>
+    <string name="pdg_car_addNo">Annuler</string>
+    <string name="pdg_car_optionTitle">Option</string>
+    <string name="pdg_car_optionLire">Lire</string>
+    <string name="pdg_car_optionModifier">Modifier</string>
+    <string name="pdg_car_optionSupprimer">Supprimer</string>
+    <string name="pdg_car_optionCancel">Annuler</string>
+    <string name="pdg_car_editTitle">Carnet : </string>
+    <string name="pdg_car_editContainer">Veuillez entrer le nouveau nom du carnet :</string>
+    <string name="pdg_car_editYes">Modifier</string>
+    <string name="pdg_car_editNo">Annuler</string>
+    <string name="pdg_car_deleteConfirm">Confirmer</string>
+    <string name="pdg_car_deleteContainer">Supprimer le carnet ?</string>
+    <string name="pdg_car_deleteSucces">Le carnet a bien été suprimé</string>
+    <string name="pdg_car_editSucces">Le carnet a bien été mis a jour</string>
+    <string name="pdg_car_empty">Champ vide !</string>
+    <string name="pdg_car_listview_1">+ Ajouter un carnet [</string>
+    <string name="pdg_car_listview_2">/5]</string>
+
+    <!-- ================== MON COMPTE ================== -->
+
+    <string name="btn_mycompte_pseud">Changer de pseudo</string>
+    <string name="btn_mycompte_mdp">Changer votre mot de passe</string>
+    <string name="btn_mycompte_desinscription">Desinscription</string>
+    <string name="btn_mycompte_return">Retour</string>
+    <string name="pdg_mon_Yes">Changer</string>
+    <string name="pdg_mon_No">Annuler</string>
+    <string name="pdg_mon_pseudoHint">Pseudo</string>
+    <string name="pdg_mon_pseudotitle">Nouveau pseudo</string>
+    <string name="pdg_mon_pseudoMessage">Veuillez entrer le nouveau pseudo</string>
+    <string name="pdg_mon_mdpHint">Mot de passe</string>
+    <string name="pdg_mon_mdptitle">Nouveau mot de passe</string>
+    <string name="pdg_mon_mdpMessage">Veuillez entrer le nouveau mot de passe</string>
+    <string name="pdg_mon_mdpMessageRe">Veuillez entrer a nouveau le mot de passe</string>
+    <string name="pdg_mon_deleteTitle">Confirmation</string>
+    <string name="pdg_mon_deleteMessage">Voulez-vous vraiment vous désinscrire ?</string>
+    <string name="pdg_mon_deleteYes">Confirmer</string>
+    <string name="pdg_mon_deleteNo">Annuler</string>
+    <string name="pdg_mon_ask_editSucces">Changement effectué !</string>
+    <string name="pdg_mon_ask_mdpFailRe">Mot de passe incohérent</string>
+    <string name="pdg_mon_empty">Champ vide !</string>
+    <string name="pdg_mon_unregisterSucces">Désinscription réussis !</string>
+
+    <!-- ================== ABOUT US ================== -->
+
+    <string name="label_aboutus">Sujet:\n\nBloc-notes avec sauvegarde en ligne des différents articles. Prévoir la notion de catégorie et de titre.\n\nDeveloppeur:\n\n- anthony.lattuca@condorcet.be\n- alexandre.rosati@condorcet.be</string>
+
+    <!-- ================== ADD NOTE ================== -->
+
+	<string name="label_add_title">Nouvelle note</string>
+	<string name="label_add_succes">Ajout réussis !</string>
+	
+	<string name="layout_label_titre">Titre</string>
+	<string name="layout_label_contenu">Contenu de la note</string>
+
+    <!-- ================== EDIT NOTE ================== -->
+	
+	<string name="pdg_editnote_title">Confirmation</string>
+	<string name="pdg_editnote_message">Etes vous certain de vouloir supprimer cette note ?</string>
+	<string name="pdg_editnote_yes">Oui</string>
+	<string name="pdg_editnote_no">Annuler</string>
+	
+	
+    <!-- ================== Autres ================== -->
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_activity_note">ActivityNote</string>
+    <string name="title_activity_activity_edit_note">ActivityEditNote</string>
+    <string name="title_activity_activity_lire_carnet">ActivityLireCarnet</string>
+    <string name="title_activity_activity_add_note">ActivityAddNote</string>
+
+</resources>
